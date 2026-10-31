@@ -1,0 +1,4 @@
+# OPCIONAL. Añade estas líneas al FINAL del archivo .htaccess de public_html (si no existe, créalo).
+# Llevan a los enlaces antiguos de democloud a la web nueva.
+Redirect 301 /democloud/landing.html /
+Redirect 301 /democloud /demo
